@@ -10,7 +10,7 @@ def home():
     app.logger.warning('Warning level log')
     app.logger.critical('Critical level log')
     app.logger.error('Error level log')
-    return 'Welcome to the App!'  
+    return 'Welcome to the Application!'  
 
 if __name__ == "__main__":
     app.run(debug=True)
