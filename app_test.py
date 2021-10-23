@@ -4,7 +4,7 @@ import logging
 app = Flask(__name__)
 logging.basicConfig(level=logging.DEBUG, format=f'%(asctime)s %(levelname)s %(name)s %(threadName)s : %(message)s')
 
-@app.route("/")
+@app.route("/home")
 def home():
     app.logger.info('Info level log')
     app.logger.warning('Warning level log')
