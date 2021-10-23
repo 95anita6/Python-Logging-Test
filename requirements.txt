@@ -4,7 +4,6 @@ chatterbot-corpus==1.2.0
 click==8.0.3
 colorama==0.4.4
 cycler==0.10.0
-dataclasses==0.8
 Flask==2.0.2
 gast==0.3.3
 importlib-metadata==4.8.1
